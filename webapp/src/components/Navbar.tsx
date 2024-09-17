@@ -18,6 +18,7 @@ function Navbar() {
                 <Button size='medium' variant='contained'>Burger</Button>
                 <Link to={'/'}>Home</Link>
                 <Link to={'about'}>About</Link>
+                <Link to={'subscribe'}>Subscribe</Link>
                 <Button onClick={() => {dispatch(toggleThemeMode())}}>theme</Button>
                 <Typography>Logo</Typography>
             </Grid>

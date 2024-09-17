@@ -12,6 +12,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import { setThemeMode } from './state/themeModeSlice';
+import Subscribe from './pages/Subscribe';
 
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='about' element={<About />}/>
+            <Route path='subscribe' element={<Subscribe />}/>
           </Routes>
         </Box>
       </BrowserRouter>

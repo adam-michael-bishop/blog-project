@@ -12,6 +12,7 @@ uvicorn = "^0.30.5"
 motor = "^3.5.1"
 pydantic = "^2.8.2"
 python-dotenv = "^1.0.1"
+stripe = "^10.8.0"
 
 
 [build-system]
